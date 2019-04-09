@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    background-image: url("https://images.pexels.com/photos/886454/pexels-photo-886454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+}
+#main {
+    margin: 7vh auto;
+    background-color: hsla(226, 0%, 9%, 0.45);
+    color: #d9d9d9;
+    width: 360px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+    padding-top: 20px;
+    border-radius: 5%;
+}
+#main::-webkit-scrollbar { 
+                display: none; 
+}
+
+#phorm {
+    display: flex;
+    flex-direction: column;
+}
+
+#phorm input {
+    width: 250px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-family: 'Anton', sans-serif;
+}
+#phorm label {
+    font-size: 24px;
+    margin-bottom: -5px;
+    text-shadow: 1px 1px black;
+}
+
+#dafuq {
+    margin: 10px;
+    font-size: 24px;
+}
+
+#newFiles div {
+    width: 340px;
+    padding: 10px 0;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #d9d9d9;
+    transition: 1s;
+}
+button:hover {
+    background-color: hsla(219, 100%, 100%, 0.41);
+}
+
+#bigAssButton {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+#looseEnds {
+    position: static;
+}
+#yes {
+    position: relative;
+    display: none;
+}
+#no {
+    position: relative;
+    display: none;
+}
+.btn {
+    font-family: 'Anton', sans-serif;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #d9d9d9;
+    transition: 1s;
+}
+
